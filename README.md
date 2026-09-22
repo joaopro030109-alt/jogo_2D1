@@ -11,3 +11,6 @@ branch: uma linha paralela que testa sem danificas o jogo ou o programa salvo
 push: enviar os comentarios para github
 pull: tras oque os colegas criaram como oque mudaram no projeto para organização 
 merge: junta o trabalho de duas pessoas em um so 
+
+22/09
+hoje melhoramos o codigo para limitação de pulojunto com a identificação de chão para a criação de umçi,ite para o player 
