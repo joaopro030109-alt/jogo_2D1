@@ -14,3 +14,6 @@ merge: junta o trabalho de duas pessoas em um so
 
 22/09
 hoje melhoramos o codigo para limitação de pulojunto com a identificação de chão para a criação de umçi,ite para o player 
+29/09
+criamos o freaps que e uma ferramenta para nos organizar e facilitar nosso desenvolvimento dos materiais e desines craficos 
+nos ajudando mo salvamento de nossos projetos para não termos que criar outros materiais e sendo um meio mais rapido para nossa criação 
