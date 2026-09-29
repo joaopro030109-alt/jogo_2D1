@@ -1,6 +1,7 @@
 using System;
 using Unity.VisualScripting; 
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class player : MonoBehaviour
 {
@@ -31,6 +32,10 @@ public class player : MonoBehaviour
         {
             isGrounded = true; //vai reconhecer quando o jogador encostar em um objeto que tem colisor 
 
+        }
+        if (collision.gameObject.CompareTag("dano"))
+        {
+            SceneManager.LoadScene(0);
         }
     }
     private void OnCollisionExit2D(Collision2D collision)
