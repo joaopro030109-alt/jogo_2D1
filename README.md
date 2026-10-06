@@ -17,3 +17,6 @@ hoje melhoramos o codigo para limitação de pulojunto com a identificação de 
 29/09
 criamos o freaps que e uma ferramenta para nos organizar e facilitar nosso desenvolvimento dos materiais e desines craficos 
 nos ajudando mo salvamento de nossos projetos para não termos que criar outros materiais e sendo um meio mais rapido para nossa criação 
+06/10
+finalizei definitivamente o jogo adicionamos uma nova função nele coloquie o dash uma forma nova de movimentação
+para facilitar e ajudar o jogador com alguns desafios que existe dentro do proprio jogo 
