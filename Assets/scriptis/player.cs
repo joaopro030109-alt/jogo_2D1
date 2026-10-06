@@ -9,7 +9,8 @@ public class player : MonoBehaviour
     public float jumpForce = 5f;
     private Rigidbody2D rb;
     private bool isGrounded = false;
-    
+   
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -25,6 +26,9 @@ public class player : MonoBehaviour
         {
             rb.AddForce(new Vector2(0F, 6F), ForceMode2D.Impulse);//vai reconhecer quando o player apertar espaço para asionar o pulo 
         }
+
+        rb.linearVelocity = new Vector2( moveHorizontal * speed, rb.linearVelocity.y);
+       
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -45,5 +49,8 @@ public class player : MonoBehaviour
             isGrounded = false; //vai reconhecer quando o jogador estiver longe do objeto 
         }
     }
+   
+
+
 
 }
